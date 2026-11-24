@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+    @font-face {
+        font-family: "Dana";
+        src: url("/public/Font/Dana/FontFamily/Dana-Regular.ttf");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Dana Medium";
+        src: url("/public/Font/Dana/FontFamily/Dana-Medium.ttf");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Dana DemiBold";
+        src: url("/public/Font/Dana/FontFamily/Dana-DemiBold.ttf");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Dana En";
+        src: url("/public/Font/DanaEn/DanaNoEn-Regular.ttf");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Dana Medium En";
+        src: url("/public/Font/DanaEn/DanaNoEn-Medium.ttf");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Dana DemiBold En";
+        src: url("/public/Font/DanaEn/DanaNoEn-DemiBold.ttf");
+        font-display: swap;
+    }
+}
+
+@theme {
+    --font-dana: "Dana";
+    --font-DanaMedium: "Dana Medium";
+    --font-DanaDemiBold: "Dana DemiBold";
+    --font-dana-en: "Dana En";
+    --font-DanaMedium-en: "Dana Medium En";
+    --font-DanaDemiBold-en: "Dana DemiBold En";
+
+    --color-green-main: #085d3d;
+}
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+    overflow-x: hidden;
+
+}
+
+body {
+    font-family: "Dana DemiBold";
+    width: 100%;
+    overflow-x: hidden;
+}
