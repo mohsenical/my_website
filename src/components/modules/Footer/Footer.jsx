@@ -10,7 +10,7 @@ import { Link, Links } from 'react-router-dom';
 
 function Footer() {
     return (
-        <div className='flex flex-col md:flex-row items-center justify-center  md:items-start w-full mt-10 py-8  bg-white dark:bg-black text-white'>
+        <div className='flex flex-col md:flex-row items-center justify-center  md:items-start w-full mt-10 py-8  bg-gradient-to-t from-blue-50 to-blue-200 dark:bg-none dark:bg-black text-white'>
 
             <div className="flex flex-col gap-y-4 py-4 px-5 mb-5 w-full md:w-[60%] h-full">
                 <div className="w-full">

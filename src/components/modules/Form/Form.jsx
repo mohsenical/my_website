@@ -2,8 +2,8 @@
 
 function Form() {
     return (
-        <form className="grid gap-2 mx-5 w-[90%] md:w-[40%]">
-            <div className="grid gap-x-4 gap-y-5 grid-cols-1 lg:grid-cols-2 *:flex *:flex-col *:space-y-1 ">
+        <form className="grid gap-2 mx-5 w-[90%] xl:w-[40%]">
+            <div className="grid gap-x-4 gap-y-5 grid-cols-1 md:grid-cols-2 *:flex *:flex-col *:space-y-1 ">
                 <div className="">
                     <label className='text-gray-400' htmlFor="name">نام و نشان</label>
                     <input

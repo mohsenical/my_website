@@ -12,28 +12,28 @@ function AboutMe() {
                 <Breadcrumb title="درباره من" />
 
                 <div className='flex flex-col gap-y-5'>
-                    <HeaderSctionBody title="درباره من" desc="خلاصه ای از رزومه من" />
+                    <div className='flex flex-col mx-auto w-[93%] md:w-[93%] xl:w-[90]'>
+                        <HeaderSctionBody title="درباره من" desc="خلاصه ای از رزومه من" />
+                        <AboutMeSection />
 
-                    <AboutMeSection />
-
-                    <HeaderSctionBody title="مهارت ها" desc="توانایی های من برای کمک ب شما" />
-
-
-                    <div className="md:pb-5 px-5 md:px-24">
-                        <div
-                            // data-aos="zoom-in"
-                            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-1 md:gap-x-5 gap-y-1 md:gap-y-5 justify-center items-center mx-auto w-[95%] md:w-[90%] py-5 px-5  bg-white/10 dark:bg-black/50 rounded-2xl overflow-hidden shadow-md"
-                        >
-                            {
-                                skillsData.map(box => (
-                                    <div key={box.id}>
-                                        <BoxSkills {...box} />
-                                    </div>
-                                ))
-                            }
+                        <HeaderSctionBody title="مهارت ها" desc="توانایی های من برای کمک ب شما" />
+                        <div className="">
+                            <div
+                                // data-aos="zoom-in"
+                                className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-x-1 md:gap-x-5 gap-y-1 md:gap-y-5 justify-center items-center mx-auto py-2 px-2 bg-white/10 dark:bg-black/50 rounded-2xl overflow-hidden shadow-md"
+                            >
+                                {
+                                    skillsData.map(box => (
+                                        <div key={box.id}>
+                                            <BoxSkills {...box} />
+                                        </div>
+                                    ))
+                                }
+                            </div>
                         </div>
                     </div>
                 </div>
+
 
                 <ScrollTopBtn />
             </>

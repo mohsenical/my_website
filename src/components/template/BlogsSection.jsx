@@ -55,7 +55,7 @@ function BlogsSection() {
                                                 {article.disc}
                                             </p>
 
-                                            <button className='w-full md:w-[20%] bg-slate-700 dark:bg-green-900 p-3 rounded-2xl text-white dark:text-gray-400 hover:text-zinc-400 dark:hover:text-white transition-all cursor-pointer'>
+                                            <button className='w-full md:w-[20%] bg-slate-800 dark:bg-green-900 p-3 rounded-2xl text-white dark:text-gray-400 hover:text-zinc-400 dark:hover:text-white transition-all cursor-pointer'>
                                                 <Link to={`blogs/${article.id}`} className='text-[15px]'>خواندن مقاله</Link>
                                             </button>
                                         </div>

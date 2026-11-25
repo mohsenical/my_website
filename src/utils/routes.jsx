@@ -12,10 +12,15 @@ import AboutMe from "../pages/AboutMe.jsx";
 import Blog from "../pages/Blog.jsx";
 
 
+
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <RootLayout />,
+        element: (
+            <>
+                <RootLayout />
+            </>
+        ),
         children: [
             { path: "/", element: <Home /> },
             { path: "/services", element: <Services /> },
