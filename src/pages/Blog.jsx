@@ -110,7 +110,7 @@ function Blog() {
                                         <div className=" flex items-start gap-x-3 w-[90%] mt-3 my-2 py-3 overflow-hidden">
                                             <button className='py-2 px-3 w-30 rounded-xl bg-slate-500 dark:bg-green-900  text-white dark:text-gray-400 hover:text-zinc-400 dark:hover:text-white transition-all text-md cursor-pointer'>
                                                 <Link to="/about-me">
-                                                    صفعه اصلی
+                                                    صفحه اصلی
                                                 </Link>
                                             </button>
                                             <button className='py-2 px-4 w-30 rounded-xl bg-slate-500 dark:bg-green-900  text-white dark:text-gray-400 hover:text-zinc-400 dark:hover:text-white transition-all text-md cursor-pointer'>

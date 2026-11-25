@@ -66,16 +66,20 @@ function Footer() {
 
                     <div className="flex gap-x-2 items-center justify-start mr-5">
                         <CgMail className='text-2xl text-slate-700 dark:text-green-700' />
-                        <span className="text-md text-black dark:text-gray-400">mohsenical.web@gmail.com</span>
+                        <Link to="https://mail.google.com/mail/?view=cm&to=mohsenical.web@gmail.com" target="_blank">
+                            <span className="text-md text-black dark:text-gray-400 dark:hover:text-gray-500">mohsenical.web@gmail.com</span>
+                        </Link>
                     </div>
 
                     <div className="flex gap-x-2 items-center justify-start mr-5">
                         <AiOutlinePhone className='text-2xl text-slate-700 dark:text-green-700' />
-                        <span className="text-md text-black dark:text-gray-400">0914-545-0730</span>
+                        <Link to="sms:09145450730">
+                            <span className="text-md text-black dark:text-gray-400">0914-545-0730</span>
+                        </Link>
                     </div>
                     <div className="flex gap-x-2 items-center justify-start mr-5">
                         <MdOutlineBrowserUpdated className='text-2xl text-slate-700 dark:text-green-700' />
-                        <span className="text-md text-black dark:text-gray-400">آخرین بهروزرسانی:  1404/10/8</span>
+                        <span className="text-md text-black dark:text-gray-400">آخرین به روزرسانی:  1405/9/5</span>
                     </div>
                 </div>
             </div>

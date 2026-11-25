@@ -14,7 +14,7 @@ const menuItem = [
 ]
 
 const sideBarItems = [
-    { id: 1, title: "صفعه اصلی", href: "/", icon: <FaHome /> },
+    { id: 1, title: "صفحه اصلی", href: "/", icon: <FaHome /> },
     { id: 2, title: "درباره من", href: "/about-me", icon: <FaUser /> },
     { id: 3, title: "خدمات", href: "/services", icon: <MdOutlineCleaningServices /> },
     { id: 4, title: "مهارت ها", href: "/skills", icon: <GiSkills /> },
@@ -28,4 +28,4 @@ const sideBarItems = [
 
 
 
-export { menuItem, sideBarItems}
+export { menuItem, sideBarItems }
