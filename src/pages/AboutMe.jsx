@@ -16,7 +16,7 @@ function AboutMe() {
 
                     <AboutMeSection />
 
-                    <HeaderSctionBody title="مهارت ها"  desc="توانایی های من برای کمک ب شما" />
+                    <HeaderSctionBody title="مهارت ها" desc="توانایی های من برای کمک ب شما" />
 
 
                     <div className="md:pb-5 px-5 md:px-24">
@@ -26,7 +26,9 @@ function AboutMe() {
                         >
                             {
                                 skillsData.map(box => (
-                                    <BoxSkills {...box} />
+                                    <div key={box.id}>
+                                        <BoxSkills {...box} />
+                                    </div>
                                 ))
                             }
                         </div>
