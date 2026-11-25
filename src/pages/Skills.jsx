@@ -10,7 +10,7 @@ function Skills() {
         <>
             <Breadcrumb title="مهارت ها" />
 
-            <div className='flex flex-col mx-auto w-[93%] md:w-[93%] xl:w-[90]'>
+            <div className='flex flex-col mx-auto w-[93%] md:w-[93%] xl:w-[90%]'>
                 <div>
                     <HeaderSctionBody title="مهارت های من" desc="مهارت ها و تکنولوژی ها" />
                     <SkillsSection />

@@ -14,7 +14,7 @@ function ContactMe() {
     <>
       <Breadcrumb title="تماس" />
 
-      <div className='flex flex-col mx-auto w-[93%] md:w-[93%] xl:w-[90]'>
+      <div className='flex flex-col mx-auto w-[93%] md:w-[93%] xl:w-[90%]'>
         <div>
           <HeaderSctionBody title="تماس با من" desc="ارتباط با من / مشاوره :)" />
 

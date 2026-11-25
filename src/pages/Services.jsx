@@ -13,7 +13,7 @@ function Services() {
         <>
             <Breadcrumb title="خدمات" />
 
-            <div className='flex flex-col mx-auto w-[93%] md:w-[93%] xl:w-[90]'>
+            <div className='flex flex-col mx-auto w-[93%] md:w-[93%] xl:w-[90%]'>
 
                 <div>
                     <HeaderSctionBody title="خدمات" desc="کار هایی که انجام میدهم" button="دریافت مشاوره رایگان" />

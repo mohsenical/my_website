@@ -12,7 +12,7 @@ function AboutMe() {
                 <Breadcrumb title="درباره من" />
 
                 <div className='flex flex-col gap-y-5'>
-                    <div className='flex flex-col mx-auto w-[93%] md:w-[93%] xl:w-[90]'>
+                    <div className='flex flex-col mx-auto w-[93%] md:w-[93%] xl:w-[90%]'>
                         <HeaderSctionBody title="درباره من" desc="خلاصه ای از رزومه من" />
                         <AboutMeSection />
 
