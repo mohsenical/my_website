@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function NewArticle({ id, date, image, alt, title }) {
+function NewArticles({ id, date, image, alt, title }) {
     return (
         <Link to={`/blogs/${id}`}>
             <div className="flex justify-start items-center gap-x-2 w-[90%]">
@@ -15,4 +15,4 @@ function NewArticle({ id, date, image, alt, title }) {
     )
 }
 
-export default NewArticle
+export default NewArticles

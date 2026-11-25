@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom';
 
 import Breadcrumb from '../components/modules/Breadcrumb/Breadcrumb'
-import NewArticle from '../components/modules/NewArticle/NewArticle'
+import NewArticles from '../components/modules/NewArticle/NewArticles'
 
 import { articlesData } from '../Data/articlesData';
 
@@ -100,7 +100,7 @@ function Blog() {
                                                 {
                                                     articlesData.map(data => (
                                                         <React.Fragment key={data.id}>
-                                                            <NewArticle {...data} />
+                                                            <NewArticles {...data} />
                                                         </React.Fragment>
                                                     ))
                                                 }
