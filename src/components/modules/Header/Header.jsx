@@ -32,10 +32,10 @@ function Header() {
         <>
             {/* Header Laptop & Tablet Responsive */}
             <header className='hidden md:block'>
-                <div className={clsx("z-50 flex right-0 left-0 items-center h-18 lg:h-20 shadow-xl  dark:bg-black/50 backdrop-blur-xl transition-all", fixTop ? "fixed top-5 w-[90%] mx-auto bg-white/50 rounded-2xl" : "fixed top-0 w-screen bg-white")}>
+                <div className={clsx("z-50 flex right-0 left-0 items-center h-12 lg:h-15 shadow-xl  dark:bg-black/50 backdrop-blur-xl transition-all", fixTop ? "fixed top-5 w-[90%] mx-auto bg-white/50 rounded-2xl" : "fixed top-0 w-screen bg-white")}>
                     <div className="flex items-center justify-between w-full px-6 lg:px-10 py-5">
                         <nav className='flex items-center gap-x-5 lg:gap-x-9'>
-                            <ul className='flex gap-x-5 lg:gap-x-9 text-[18px] lg:text-xl text-gray-900 *:hover:text-zinc-500 dark:text-zinc-400 dark:*:hover:text-white *:transition-colors'>
+                            <ul className='flex gap-x-5 lg:gap-x-7 *:text-[15px] lg:text-xl text-gray-900 *:hover:text-zinc-500 dark:text-zinc-400 dark:*:hover:text-white *:transition-colors'>
 
                                 {menuItem.map(menu => (
                                     <li key={menu.id}>
@@ -47,7 +47,7 @@ function Header() {
                         </nav>
 
                         <div className='flex items-center gap-x-4 lg:gap-x-5  '>
-                            <button className='flex gap-x-2 text-xl lg:text-2xl cursor-pointer transition-all' onClick={toogleDarkMode}>
+                            <button className='flex gap-x-2 text-xl lg:text-[20px] cursor-pointer transition-all' onClick={toogleDarkMode}>
                                 {
                                     isDark ? (<FaSun className='text-yellow-600' />) : (<FaMoon className='text-zinc-500' />)
                                 }
@@ -56,8 +56,8 @@ function Header() {
                             <span className="w-[2px] h-7 bg-zinc-900/50 dark:bg-gray-200/50"></span>
 
                             <Link to="/" className='flex items-center gap-x-0.5 justify-center h-full cursor-pointer'>
-                                <span className='mt-2 text-gray-900 hover:text-zinc-500 dark:text-zinc-400 dark:hover:text-white transition-colors  text-xl lg:text-2xl'>Mohsenical</span>
-                                <img className='size-6 lg:size-8 bg-cover' src='/Image/Logo.png' alt='Avatar' />
+                                <span className='mt-2 text-gray-900 hover:text-zinc-500 dark:text-zinc-400 dark:hover:text-white transition-colors  text-xl lg:text-[18px] mb-1'>Mohsenical</span>
+                                <img className='size-6 lg:size-5 bg-cover' src='/Image/Logo.png' alt='Avatar' />
                             </Link>
                         </div>
                     </div>
