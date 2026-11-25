@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom';
 
 import Breadcrumb from '../components/modules/Breadcrumb/Breadcrumb'
-import NewArticles from '../components/modules/NewArticle/NewArticles'
+import NewArticles from '../components/modules/NewArticles/NewArticles'
 
 import { articlesData } from '../Data/articlesData';
 
