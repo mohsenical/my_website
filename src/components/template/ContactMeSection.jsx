@@ -21,18 +21,18 @@ function ContactMeSection() {
                         </p>
 
                         <ul className='flex flex-col gap-y-2 items-start justify-center'>
-                            <l1 className="flex items-center justify-center gap-x-3 text-white mt-2">
+                            <li className="flex items-center justify-center gap-x-3 text-white mt-2">
                                 <SiTicktick className='text-slate-500 dark:text-green-700 text-xl' />
                                 5+ سال تجربه مفید
-                            </l1>
-                            <l1 className="flex items-center justify-center gap-x-3 text-white">
+                            </li>
+                            <li className="flex items-center justify-center gap-x-3 text-white">
                                 <SiTicktick className='text-slate-500 dark:text-green-700 text-xl' />
                                 طراح وب حرفه‌ای
-                            </l1>
-                            <l1 className="flex items-center justify-center gap-x-3 text-white">
+                            </li>
+                            <li className="flex items-center justify-center gap-x-3 text-white">
                                 <SiTicktick className='text-slate-500 dark:text-green-700 text-xl' />
                                 تحویل به موقع
-                            </l1>
+                            </li>
                         </ul>
 
                     </div>

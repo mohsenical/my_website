@@ -60,21 +60,21 @@ function Footer() {
 
                 <div className="flex gap-x-2 items-center justify-start mr-5">
                     <IoLocationSharp className='text-2xl text-slate-700 dark:text-green-700' />
-                    <sapn className="text-md text-black dark:text-gray-400">ایران / ارومیه</sapn>
+                    <span className="text-md text-black dark:text-gray-400">ایران / ارومیه</span>
                 </div>
 
                 <div className="flex gap-x-2 items-center justify-start mr-5">
                     <CgMail className='text-2xl text-slate-700 dark:text-green-700' />
-                    <sapn className="text-md text-black dark:text-gray-400">mohsenical.web@gmail.com</sapn>
+                    <span className="text-md text-black dark:text-gray-400">mohsenical.web@gmail.com</span>
                 </div>
 
                 <div className="flex gap-x-2 items-center justify-start mr-5">
                     <AiOutlinePhone className='text-2xl text-slate-700 dark:text-green-700' />
-                    <sapn className="text-md text-black dark:text-gray-400">0914-545-0730</sapn>
+                    <span className="text-md text-black dark:text-gray-400">0914-545-0730</span>
                 </div>
                 <div className="flex gap-x-2 items-center justify-start mr-5">
                     <MdOutlineBrowserUpdated className='text-2xl text-slate-700 dark:text-green-700' />
-                    <sapn className="text-md text-black dark:text-gray-400">آخرین بهروزرسانی:  1404/10/8</sapn>
+                    <span className="text-md text-black dark:text-gray-400">آخرین بهروزرسانی:  1404/10/8</span>
                 </div>
             </div>
 
