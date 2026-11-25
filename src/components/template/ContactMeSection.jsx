@@ -3,19 +3,19 @@ import Form from "../modules/Form/Form";
 
 function ContactMeSection() {
     return (
-        <div className=" h-[screen] pb-5 px-5 md:px-24 w-full ">
+        <div className=" h-[screen] w-full ">
             <div
                 // data-aos="fade-up"
-                className="flex flex-col xl:flex-row gap-x-0 md:gap-x-5 gap-y-5 justify-center items-center mx-auto w-[95%] md:w-[90%] py-10 bg-white/10 dark:bg-black/50 rounded-2xl overflow-hidden shadow-md"
+                className="divide-y md:divide-none divide-zinc-100/30 dark:divide-gray-100/30 flex flex-col xl:flex-row gap-x-0 md:gap-x-5 justify-center items-center mx-auto py-5 bg-white/10 dark:bg-black/50 rounded-2xl overflow-hidden shadow-md"
             >
 
-                <div className="w-[90%] lg:w-[90%] xl:w-[40%] mx-10">
-                    <div className="w-full flex flex-col gap-y-4 justify-center items-start">
+                <div className="px-5 w-full md:w-[65%]">
+                    <div className="w-full flex flex-col gap-y-3 justify-evenly items-start">
 
-                        <p className='text-lg text-zinc-300 dark:text-gray-400'>تماس با من</p>
-                        <h2 className='text-2xl text-zinc-300 dark:text-white'> <span className='text-slate-500 dark:text-green-700'>درباره پروژه بعدی</span> صعبت کنیم </h2>
+                        <p className='text-[20px] text-zinc-300 dark:text-gray-400'>تماس با من</p>
+                        <h2 className='text-[22px] text-zinc-300 dark:text-white'> <span className='text-slate-500 dark:text-green-700'>درباره پروژه بعدی</span> صعبت کنیم </h2>
 
-                        <p className='text-md text-zinc-300 dark:text-gray-400 '>
+                        <p className='text-[15px] leading-7 text-zinc-300 dark:text-gray-400 '>
                             در سریع‌ترین زمان ممکن پاسخگوی شما هستیم!
                             ارتباط مستقیم و بی‌واسطه با کارشناسان متخصص ۲۴ ساعته، ۷ روز هفته در خدمت شما
                         </p>

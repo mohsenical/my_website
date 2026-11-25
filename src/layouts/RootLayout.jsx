@@ -7,11 +7,11 @@ import Footer from '../components/modules/Footer/Footer';
 function RootLayout() {
   return (
     <>
-        <Header />
-        
-        <Outlet />
-        
-        <Footer /> 
+      <Header />
+
+      <Outlet />
+
+      <Footer />
     </>
   )
 }

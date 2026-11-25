@@ -8,20 +8,20 @@ import aboutData from '../../Data/aboutmeData';
 
 function AboutMeSection() {
     return (
-        <div className=" h-[screen] pb-5 px-5 md:px-24 w-full ">
+        <div className="w-full ">
             <div
                 // data-aos="zoom-in"
-                className="flex flex-col xl:flex-row gap-x-0 md:gap-x-5 gap-y-1 md:gap-y-5 justify-center items-center mx-auto w-[95%] md:w-[90%] py-5 bg-white/10 dark:bg-black/50 rounded-2xl overflow-hidden shadow-md"
+                className="flex flex-col md:flex-row gap-x-0 md:gap-x-1 gap-y-1 md:gap-y-1 justify-between items-center px-1 md:px-4 mx-auto py-5 bg-white/10 dark:bg-black/50 rounded-2xl overflow-hidden shadow-md"
             >
 
-                <div className="w-[90%] lg:w-[90%] xl:w-[60%] mx-5">
+                <div className="w-[90%] lg:w-[90%] xl:w-[60%]">
                     <div className="w-full flex flex-col gap-y-4 justify-center items-start">
 
-                        <p className='text-zinc-300 text-lg dark:text-gray-400'>درباره من</p>
+                        <p className='text-zinc-300 text-[20px] dark:text-gray-400'>درباره من</p>
 
-                        <h2 className='text-white text-2xl mb-4'> <span className='text-slate-500 dark:text-green-900'> توسعه دهنده </span> وب اپلیکیشن ها </h2>
+                        <h2 className='text-white text-[18px] mb-4'> <span className='text-slate-500 dark:text-green-900 font-bold'> توسعه دهنده </span> وب اپلیکیشن ها </h2>
 
-                        <p className='text-zinc-300 dark:text-gray-400 text-md'>
+                        <p className='text-zinc-300 dark:text-gray-400 text-[15px] leading-7'>
                             راه‌حل‌های حرفه‌ای برای محصولات، فراتر از معرفی ویژگی‌های ساده، مستقیماً بر حل چالش‌های پیچیده کسب‌وکارها متمرکز هستند. این راه‌حل‌ها با قابلیت یکپارچه‌سازی بدون دردسر با سیستم‌های موجود و مقیاس‌پذیری همراه با رشد کسب‌وکار، طراحی شده‌اند. علاوه بر این، ارائه پشتیبانی تخصصی، مشاوره مستمر و خدمات آموزشی، تضمین می‌کند که مشتریان بتوانند حداکثر بازدهی و ارزش را از محصول دریافت کنند.
                         </p>
 
@@ -30,8 +30,8 @@ function AboutMeSection() {
                             {
                                 aboutData.map(data => (
                                     <div key={data.id}>
-                                        <TiTick className='text-slate-500 dark:text-green-900 text-xl' />
-                                        <span className='text-white'>{data.title}</span>
+                                        <TiTick className='text-slate-500 dark:text-green-900 text-[20px]' />
+                                        <span className='text-white text-[13px] xl:text-[15px]'>{data.title}</span>
                                     </div>
                                 ))
                             }
@@ -61,8 +61,8 @@ function AboutMeSection() {
                     </div>
                 </div>
 
-                <div className="w-[95%] lg:w-[90%]  xl:w-[40%] mx-5 rounded-xl overflow-hidden">
-                    <img src="/Image/AboutAvatar.jpg" className=" mx-auto object-contain object-fill" alt="Avatar" />
+                <div className="rounded-xl overflow-hidden">
+                    <img src="/Image/AboutAvatar.jpg" className=" mx-auto object-contain object-fill max-w-120" alt="Avatar" />
                 </div>
             </div>
         </div>

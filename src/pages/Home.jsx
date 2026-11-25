@@ -20,38 +20,40 @@ function Home() {
         <>
             <SocialMedia />
             <HeaderSection />
+            <div className='flex flex-col mx-auto w-[93%] md:w-[93%] xl:w-[90]'>
 
-            <div className="flex flex-col *:w-full">
-                <div>
-                    <HeaderSctionBody title="خدمات" desc="کار هایی که انجام میدهم" button="دریافت مشاوره رایگان" />
-                    <ServicesSection />
+                <div className="flex flex-col *:w-full">
+                    <div>
+                        <HeaderSctionBody title="خدمات" desc="کار هایی که انجام میدهم" button="دریافت مشاوره رایگان" />
+                        <ServicesSection />
+                    </div>
+
+
+                    <div>
+                        <HeaderSctionBody title="درباره من" desc="خلاصه ای از رزومه من" />
+                        <AboutMeSection />
+                    </div>
+
+                    <div>
+                        <HeaderSctionBody title="مهارت های من" desc="مهارت ها و تکنولوژی ها" />
+                        <SkillsSection />
+                    </div>
+
+                    <div>
+                        <HeaderSctionBody title="تماس با من" desc="ارتباط با من / مشاوره :)" />
+                        <ContactMeSection />
+                    </div>
+
+
+                    <div>
+                        <HeaderSctionBody title="مقالات" desc="جدید ترین های وبلاگ" />
+                        <BlogsSection />
+                    </div>
+
+
                 </div>
-
-
-                <div>
-                    <HeaderSctionBody title="درباره من" desc="خلاصه ای از رزومه من" />
-                    <AboutMeSection />
-                </div>
-
-                <div>
-                    <HeaderSctionBody title="مهارت های من" desc="مهارت ها و تکنولوژی ها" />
-                    <SkillsSection />
-                </div>
-
-                <div>
-                    <HeaderSctionBody title="تماس با من" desc="ارتباط با من / مشاوره :)" />
-                    <ContactMeSection />
-                </div>
-
-
-                <div>
-                    <HeaderSctionBody title="مقالات" desc="جدید ترین های وبلاگ" />
-                    <BlogsSection />
-                </div>
-
-
+                <ScrollTopBtn />
             </div>
-            <ScrollTopBtn />
         </>
     )
 }

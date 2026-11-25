@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function HeaderSctionBody({ title, desc, button }) {
     return (
-        <div className=" flex items-center justify-between p-2 mx-5  xl:mx-10 md:px-15 mb-3 md:mb-8 my-10 rounded-2xl">
+        <div className=" flex items-center justify-between py-2 mb-3 md:mb-8 my-10 rounded-2xl">
             <div
                 className=" flex flex-col gap-y-1 md:gap-y-0.5 border-r-2 border-sky-700 dark:border-green-700 px-2 md:px-5">
                 <h2 className='text-[20px] lg:text-[25px] text-sky-700 dark:text-green-700'> {title} </h2>
