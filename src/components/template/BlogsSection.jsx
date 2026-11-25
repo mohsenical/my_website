@@ -20,7 +20,7 @@ import { Link } from 'react-router-dom';
 function BlogsSection() {
     return (
         <div
-            data-aos="fade-up"
+            // data-aos="fade-up"
             className=" h-[screen] pb-5 px-5 md:px-24 w-full ">
 
             <div

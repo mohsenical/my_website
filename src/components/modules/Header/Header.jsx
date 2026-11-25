@@ -65,14 +65,14 @@ function Header() {
             </header>
 
             {/* Header Mobile Responsive */}
-            <header className={clsx("flex fixed inset-0 items-center md:hidden justify-between w-full h-22 py-5 px-5 dark:bg-black bg-gray-200 z-50 transition-all")}>
+            <header className={clsx("flex fixed inset-0 items-center md:hidden justify-between w-full h-22 py-5 px-5 dark:bg-black/20 bg-white/20 backdrop-blur-xl shadow-lg z-50 transition-all")}>
                 <div className="">
                     <Berger sideBarOpen={sideBarOpen} />
                 </div>
 
                 <div className='flex items-center justify-center gap-x-3 h-full'>
-                    <span className='dark:text-zinc-300 text-zinc-900 text-2xl mt-1.5'>Mohsen Peighami</span>
-                    <img className='size-15 bg-cover rounded-full' src='/Image/Avatar.jpg' alt='Avatar' />
+                    <span className='dark:text-zinc-300 text-zinc-900 text-2xl mt-1.5'>محسن پیغامی</span>
+                    <img className='size-15 object-containobject-contain rounded-full' src='/Image/Avatar.jpg' alt='Avatar' />
                 </div>
             </header>
 
