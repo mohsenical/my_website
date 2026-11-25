@@ -2,12 +2,13 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom';
 
 import Breadcrumb from '../components/modules/Breadcrumb/Breadcrumb'
+import NewArticle from '../components/modules/NewArticle/NewArticle'
+
 import { articlesData } from '../Data/articlesData';
 
 import { IoMdTime } from "react-icons/io";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { GrArticle } from "react-icons/gr";
-import NewArticle from '../components/modules/newArticle/newArticle';
 
 
 function Blog() {
