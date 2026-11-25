@@ -6,7 +6,7 @@ function ContactMeSection() {
         <div className=" h-[screen] w-full ">
             <div
                 // data-aos="fade-up"
-                className="divide-y md:divide-none divide-zinc-100/30 dark:divide-gray-100/30 flex flex-col xl:flex-row gap-x-0 md:gap-x-5 justify-center items-center mx-auto py-5 bg-white/10 dark:bg-black/50 rounded-2xl overflow-hidden shadow-md"
+                className="*:py-5 divide-y md:divide-none divide-zinc-100/30 dark:divide-gray-100/30 flex flex-col xl:flex-row gap-x-0 md:gap-x-5 justify-center items-center mx-auto py-5 bg-white/10 dark:bg-black/50 rounded-2xl overflow-hidden shadow-md"
             >
 
                 <div className="px-5 w-full md:w-[65%]">

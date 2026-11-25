@@ -10,7 +10,7 @@ import Berger from "../Berger/Berger";
 import { menuItem } from "../../../Data/menuData"
 
 import { FaSun, FaMoon } from "react-icons/fa";
-
+import { IoClose } from "react-icons/io5";
 
 function Header() {
 
@@ -32,10 +32,10 @@ function Header() {
         <>
             {/* Header Laptop & Tablet Responsive */}
             <header className='hidden md:block'>
-                <div className={clsx("z-50 flex right-0 left-0 items-center h-12 lg:h-15 shadow-xl  dark:bg-black/50 backdrop-blur-xl transition-all", fixTop ? "fixed top-5 w-[90%] mx-auto bg-white/50 rounded-2xl" : "fixed top-0 w-screen bg-white")}>
+                <div className={clsx("z-50 flex right-0 left-0 items-center md:h-17 lg:h-18 shadow-xl  dark:bg-black/50 backdrop-blur-xl transition-all", fixTop ? "fixed top-5 w-[90%] mx-auto bg-white/50 rounded-2xl" : "fixed top-0 w-screen bg-white")}>
                     <div className="flex items-center justify-between w-full px-6 lg:px-10 py-5">
                         <nav className='flex items-center gap-x-5 lg:gap-x-9'>
-                            <ul className='flex gap-x-5 lg:gap-x-7 *:text-[15px] lg:text-xl text-gray-900 *:hover:text-zinc-500 dark:text-zinc-400 dark:*:hover:text-white *:transition-colors'>
+                            <ul className='flex gap-x-5 lg:gap-x-7 *:text-[16px] lg:text-xl text-gray-900 *:hover:text-zinc-500 dark:text-zinc-400 dark:*:hover:text-white *:transition-colors'>
 
                                 {menuItem.map(menu => (
                                     <li key={menu.id}>
@@ -65,15 +65,18 @@ function Header() {
             </header>
 
             {/* Header Mobile Responsive */}
-            <header className={clsx("flex fixed inset-0 items-center md:hidden justify-between w-full h-22 py-5 px-5 dark:bg-black/20 bg-white/20 backdrop-blur-xl shadow-lg z-50 transition-all")}>
+            <header className={clsx("flex fixed inset-0 items-center md:hidden justify-between w-full h-18 py-5 px-5 dark:bg-black/20 bg-white/20 backdrop-blur-xl shadow-lg z-50 transition-all")}>
                 <div className="">
                     <Berger sideBarOpen={sideBarOpen} />
                 </div>
 
-                <div className='flex items-center justify-center gap-x-3 h-full'>
-                    <span className='dark:text-zinc-300 text-zinc-900 text-2xl mt-1.5'>محسن پیغامی</span>
-                    <img className='size-15 object-containobject-contain rounded-full' src='/Image/Avatar.jpg' alt='Avatar' />
+                <div className="flex items-center justify-between">
+                    <div className='flex items-center gap-x-1 justify-center'>
+                        <span className='dark:text-gray-200 text-zinc-900 text-xl mt-1.5'>Mohsenical</span>
+                        <img className='size-5 bg-cover' src='/Image/Logo.png' alt='Avatar' />
+                    </div>
                 </div>
+
             </header>
 
             {

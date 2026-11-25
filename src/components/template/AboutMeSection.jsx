@@ -62,7 +62,7 @@ function AboutMeSection() {
                 </div>
 
                 <div className="rounded-xl overflow-hidden">
-                    <img src="/Image/AboutAvatar.jpg" className=" mx-auto object-contain object-fill max-w-120" alt="Avatar" />
+                    <img src="/Image/AboutAvatar.jpg" className=" mx-auto object-contain object-fill max-w-105 max-h-105" alt="Avatar" />
                 </div>
             </div>
         </div>
